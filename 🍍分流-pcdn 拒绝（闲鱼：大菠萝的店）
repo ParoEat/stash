@@ -1,6 +1,5 @@
 name: 🍍pcdn 拒绝（闲鱼：大菠萝的店）
 desc: |-
-    - https://www.v2ex.com/t/1127079
     - 屏蔽 CN STUN 出站
 category: ruleset
 icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
