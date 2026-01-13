@@ -1,8 +1,8 @@
-#!desc= 广告屏蔽
-#!homepage=https://whatshub.top
-#!author= Tartarus2014
+#!desc= 🍍广告屏蔽（闲鱼：大菠萝的店）
+#!homepage=闲鱼：大菠萝的店
+#!author= 🍍
 #!icon= https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
-name: NoAd
+name: 🍍广告屏蔽（闲鱼：大菠萝的店）
 desc: 广告屏蔽
 http:
   mitm:
