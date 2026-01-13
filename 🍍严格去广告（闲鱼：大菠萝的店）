@@ -1,11 +1,11 @@
-name: 复写去广告(严格版)
-desc: 最后更新时间 2025-07-12 02:12:05
-# author: blackmatrix7
-# repo: https://github.com/blackmatrix7/ios_rule_script
-# reject: 1229
-# mitm: 902
+name: 🍍严格去广告（闲鱼：大菠萝的店）
+desc: 最后更新时间 2026-01-12 03:32:59
+# author: 🍍
+# repo: 闲鱼：大菠萝的店
+# reject: 2379
+# mitm: 1024
 # force-http-engine-hosts: 6
-# total: 2137
+# total: 2289
 
 
 
