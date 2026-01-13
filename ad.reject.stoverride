@@ -1,8 +1,8 @@
-name: AD分流拒绝
-desc: ""
+name: 🍍AD分流
+desc: 闲鱼：大菠萝的店
 category: ruleset
-icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
-http: null
+icon: 🍍
+http: 🍍
 rules:
     - DOMAIN,imasdk.googleapis.com,Google
     - DOMAIN,cdn.bootcdn.net,PROXY
