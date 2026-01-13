@@ -1,4 +1,4 @@
-name: pcdn 拒绝
+name: 🍍pcdn 拒绝（闲鱼：大菠萝的店）
 desc: |-
     - https://www.v2ex.com/t/1127079
     - 屏蔽 CN STUN 出站
