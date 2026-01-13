@@ -1,10 +1,10 @@
-#!name=🍍整合去广告
-#!desc=🍍整合去广告
-#!icon=🍍
-#!homepage=🍍
+#!name=APP启动页去广告ultra+
+#!desc=APP启动页去广告融合ultra+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
+#!homepage=https://whatshub.top
 #!author=Mixed
-name: 🍍整合去广告+
-desc: 🍍整合去广告
+name: APPqidongyequguanggaoultra+
+desc: APP启动页去广告融合ultra+
 http:
   mitm:
     - "*-release.wuta-cam.com"
