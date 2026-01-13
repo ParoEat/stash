@@ -1,4 +1,4 @@
-name: QUIC 屏蔽
+name: 🍍QUIC屏蔽（闲鱼：大菠萝的店）
 desc: ""
 category: ruleset
 icon: https://stash.wiki/favicon.ico
