@@ -1,7 +1,7 @@
-name: 分流拒绝
-desc: ""
+name: 🍍分流拒绝
+desc: 闲鱼：大菠萝的店
 category: ruleset
-icon: https://cdn.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Reject.png
+icon: 🍍
 http:
     mitm:
         - api.bilibili.com
