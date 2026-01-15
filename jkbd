@@ -7,33 +7,30 @@
     "jiaxiao-awd.kakamobi.cn",
     "cheyouquan.kakamobi.com",
     "swallow.kakamobi.cn",
-    "monkey.kakamobi.cn",
-    "splash.jiakao.com",
-    "ad.jiakao.com",
-    "csj.jiakao.com"
+    "monkey.kakamobi.cn"
   ],
   "rewrite": [
     {
-      "name": "拦截开屏广告接口",
+      "name": "拦截开屏广告",
       "match": "https?://jiaxiao-awd.kakamobi.cn/.*splash.*",
-      "replace": "data:application/json,{\"code\":-1,\"data\":{},\"msg\":\"no ad\"}",
-      "processes": [
-        "com.jiakao.basics"
-      ]
+      "replace": "data:application/json,{\"code\":-1}",
+      "processes": ["com.jiakao.basics"]
     },
     {
-      "name": "拦截社区广告接口",
+      "name": "拦截社区广告",
       "match": "https?://cheyouquan.kakamobi.com/.*ad.*",
-      "replace": "data:application/json,{\"code\":-1,\"data\":[],\"msg\":\"no ad\"}",
-      "processes": [
-        "com.jiakao.basics"
-      ]
-    },
-    {
-      "name": "拦截悬浮广告接口",
-      "match": "https?://swallow.kakamobi.cn/.*advert.*",
-      "replace": "data:application/json,{\"code\":-1,\"msg\":\"no ad\"}",
-      "processes": [
+      "replace": "data:application/json,{\"code\":-1}",
+      "processes": ["com.jiakao.basics"]
+    }
+  ],
+  "script": {
+    "shortcut": "",
+    "body": ""
+  },
+  "trigger": {
+    "process": ["com.jiakao.basics"]
+  }
+}
         "com.jiakao.basics"
       ]
     },
