@@ -1,39 +1,72 @@
 {
-  "name": "驾考宝典去广告（2026最新）",
-  "description": "仅屏蔽驾考宝典开屏广告，保留APP正常功能",
+  "name": "驾考宝典去广告",
+  "description": "移除开屏广告、横幅广告、悬浮窗广告、社区帖子广告，精简我的页面。",
   "author": "闲鱼：大菠萝的店",
-  "icon": "https://img.icons8.com/fluency/96/000000/driver-license.png",
   "category": "去广告",
   "mitm": [
-    "*.kakamobi.cn",
-    "*.kakamobi.com",
-    "*.jiakao.com",
-    "*.mukewang.com",
-    "*.adquan.com",
-    "*.csjplatform.com",
-    "*.bytedance.com",
-    "*.toutiao.com"
+    "jiaxiao-awd.kakamobi.cn",
+    "cheyouquan.kakamobi.com",
+    "swallow.kakamobi.cn",
+    "monkey.kakamobi.cn",
+    "splash.jiakao.com",
+    "ad.jiakao.com",
+    "csj.jiakao.com"
   ],
   "rewrite": [
     {
       "name": "拦截开屏广告接口",
-      "match": "https?://.*jiakao.com/splash.*",
-      "replace": "data:application/json,{\"code\":0,\"data\":null}",
+      "match": "https?://jiaxiao-awd.kakamobi.cn/.*splash.*",
+      "replace": "data:application/json,{\"code\":-1,\"data\":{},\"msg\":\"no ad\"}",
       "processes": [
         "com.jiakao.basics"
       ]
     },
     {
-      "name": "拦截kakamobi广告域名",
-      "match": "https?://(jiaxiao-awd|swallow|monkey|cheyouquan)\\.kakamobi\\.(cn|com)/.*ad.*",
+      "name": "拦截社区广告接口",
+      "match": "https?://cheyouquan.kakamobi.com/.*ad.*",
+      "replace": "data:application/json,{\"code\":-1,\"data\":[],\"msg\":\"no ad\"}",
+      "processes": [
+        "com.jiakao.basics"
+      ]
+    },
+    {
+      "name": "拦截悬浮广告接口",
+      "match": "https?://swallow.kakamobi.cn/.*advert.*",
       "replace": "data:application/json,{\"code\":-1,\"msg\":\"no ad\"}",
       "processes": [
         "com.jiakao.basics"
       ]
     },
     {
-      "name": "拦截穿山甲广告请求",
-      "match": "https?://.*csjplatform.com/.*",
+      "name": "拦截推送广告接口",
+      "match": "https?://monkey.kakamobi.cn/.*push.*ad.*",
+      "replace": "",
+      "processes": [
+        "com.jiakao.basics"
+      ]
+    },
+    {
+      "name": "拦截驾考宝典主站广告",
+      "match": "https?://splash.jiakao.com/.*",
+      "replace": "data:text/plain,",
+      "processes": [
+        "com.jiakao.basics"
+      ]
+    }
+  ],
+  "script": {
+    "shortcut": "",
+    "body": ""
+  },
+  "trigger": {
+    "wifi": [],
+    "cellular": [],
+    "domain": [],
+    "process": [
+      "com.jiakao.basics"
+    ]
+  }
+}
       "replace": "",
       "processes": [
         "com.jiakao.basics"
