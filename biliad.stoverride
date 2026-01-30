@@ -1,9 +1,9 @@
 #!desc=哔哩哔哩去广告
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/biliad.png
-#!homepage=https://yfamilys.com
-#!author=ddgksf2013
-name: bilibiliquguanggao
-desc: 哔哩哔哩去广告
+#!homepage=🍍
+#!author=🍍
+name: 🍍哔哩哔哩粉版去广告（闲鱼：大菠萝的店）
+desc: 哔哩哔哩（闲鱼：大菠萝的店）
 http:
   mitm:
     - "app.bilibili.com"
