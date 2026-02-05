@@ -1,8 +1,8 @@
-name: 微博去广告
+name: 微博去广告（闲鱼大菠萝的店）
 desc: 过滤微博广告及去除各部分推广模块
 icon: https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Weibo.png
 category: 去广告
-date: "2024-08-03 01:59:48"
+date: "2026-02-03 03:59"
 rules:
   # 请求放行
   - DOMAIN,wbapp.uve.weibo.com,DIRECT
