@@ -1,10 +1,10 @@
-#!name=APP启动页去广告
-#!desc=APP启动页去广告融合版
+#!name=🍍TOP级APP去广告开屏广告（闲鱼：大菠萝的店）
+#!desc=APP去开屏广告整合
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/startingad.png
-#!homepage=https://yfamilys.com
-#!author=ddgksf2013
+#!homepage=闲鱼：大菠萝的店
+#!author=🍍
 name: APPqidongyequguanggao
-desc: APP启动页去广告融合版
+desc: APP去开屏广告
 http:
   mitm:
     - "app-api.smzdm.com"
